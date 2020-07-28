@@ -1,14 +1,32 @@
 {
-  "name": "redirect-userscript",
+  "name": "@casaub0n/redirect-userscript",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "redirect favorite host",
   "license": "MIT",
-  "scripts": {
-    "build": "rimraf dist && parcel build src/index.ts"
+  "repository": "casaub0n/redirect-userscript",
+  "author": {
+    "name": "casaub0n",
+    "email": "netzach.yoshida@gmail.com",
+    "url": "https://github.com/casaub0n"
   },
+  "main": "dist",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "build": "rimraf dist && parcel build src/index.ts",
+    "test": "echo hello"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "userscript"
+  ],
   "devDependencies": {
     "parcel": "1.12.4",
     "rimraf": "3.0.2",
     "typescript": "3.9.7"
-  }
+  },
+  "types": "dist"
 }
