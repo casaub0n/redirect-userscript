@@ -2,5 +2,13 @@
   "name": "redirect-userscript",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && parcel build src/index.ts"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.7"
+  }
 }
