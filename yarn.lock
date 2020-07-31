@@ -2276,6 +2276,11 @@ fill-range@^4.0.0:
     repeat-string "^1.6.1"
     to-regex-range "^2.1.0"
 
+firstline@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/firstline/-/firstline-2.0.2.tgz#3fdfd894a80e181cd2fa478b07cadb8d446c53cd"
+  integrity sha512-8KcmfI0jgSECnzdhucm0i7vrwef3BWwgjimW2YkRC5eSFwjb5DibVoA0YvgkYwwxuJi9c+7M7X3b3lX8o9B6wg==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -2484,6 +2489,13 @@ hash.js@^1.0.0, hash.js@^1.0.3:
   dependencies:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
+
+header-inserter@^1.0.1:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/header-inserter/-/header-inserter-1.0.4.tgz#38a2ab1a5e2c645b68c625452f65efc966e8d76b"
+  integrity sha512-OkJW/QItalMvfBKkLE2GSflXegJR5rmT79PKPs34d7uEI+IDqOiugGixREZO9TpcT7FmUhNXAOiJCKFij3ZVmw==
+  dependencies:
+    firstline "^2.0.2"
 
 hex-color-regex@^1.1.0:
   version "1.1.0"

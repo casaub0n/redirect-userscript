@@ -1,0 +1,9 @@
+{
+  "name": "redirect from mobile.twitter.com to twitter.com",
+  "namespace": "https://github.com/casaub0n",
+  "version": "0.1",
+  "description": "redirect from mobile.twitter.com to twitter.com",
+  "author": "casaub0n",
+  "match": "https://*twitter.com/*",
+  "grant": "none"
+}
