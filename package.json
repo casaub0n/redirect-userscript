@@ -25,7 +25,7 @@
     "userscript"
   ],
   "devDependencies": {
-    "header-inserter": "^1.0.1",
+    "header-inserter": "1.0.4",
     "parcel": "1.12.4",
     "rimraf": "3.0.2",
     "typescript": "3.9.7"
