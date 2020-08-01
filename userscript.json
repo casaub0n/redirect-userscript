@@ -4,6 +4,6 @@
   "version": "0.1",
   "description": "redirect from mobile.twitter.com to twitter.com",
   "author": "casaub0n",
-  "match": "https://*twitter.com/*",
+  "match": "https://mobile.twitter.com/*",
   "grant": "none"
 }
