@@ -2490,10 +2490,10 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-header-inserter@1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/header-inserter/-/header-inserter-1.0.4.tgz#38a2ab1a5e2c645b68c625452f65efc966e8d76b"
-  integrity sha512-OkJW/QItalMvfBKkLE2GSflXegJR5rmT79PKPs34d7uEI+IDqOiugGixREZO9TpcT7FmUhNXAOiJCKFij3ZVmw==
+header-inserter@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/header-inserter/-/header-inserter-1.0.6.tgz#000196ca9433c142aefc0769620d26b26e22288a"
+  integrity sha512-+gFIgeY5YLTiacxOTtLRNtK+UUOcnqgHhWgIMaMOjCFKvlXsvyMuhKFzf8PDoG3L97UOCgl9LdeUIPQkOyuyyA==
   dependencies:
     firstline "^2.0.2"
 
